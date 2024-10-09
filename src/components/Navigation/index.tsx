@@ -1,4 +1,5 @@
 import { FC } from "react";
+import Link from "next/link";
 
 const Navigation:FC = () => {
     return(
@@ -10,9 +11,15 @@ const Navigation:FC = () => {
                 <div className="header-right">
                     <nav>
                         <ul className="flex gap-[40px]">
-                            <li><a href="#about">About</a></li>
-                            <li><a href="/">Work</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li>
+                                <Link href="#about">About</Link>
+                            </li>
+                            <li>
+                                <Link href="/">Work</Link>
+                            </li>
+                            <li>
+                                <Link href="/contact">Contact</Link>
+                            </li>
                         </ul>
                     </nav>
                 </div>
