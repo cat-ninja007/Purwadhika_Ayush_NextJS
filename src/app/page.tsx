@@ -1,12 +1,14 @@
 import { FC } from "react";
 import Jumbotron from "@/components/Jumbotron";
 import RecentWork from "@/components/RecentWork";
+import Testimonial from "@/components/Testimonial";
 
 const Home: FC = () => {
   return (
     <>
       <Jumbotron />
       <RecentWork />
+      <Testimonial />
     </>
   )
 }
