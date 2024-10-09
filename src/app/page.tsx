@@ -1,11 +1,12 @@
 import { FC } from "react";
 import Jumbotron from "@/components/Jumbotron";
+import RecentWork from "@/components/RecentWork";
 
 const Home: FC = () => {
   return (
     <>
-      <h1 className="text-red-500 text-6xl">Hello It's Archie using NextJS and Tailwind</h1>
       <Jumbotron />
+      <RecentWork />
     </>
   )
 }
